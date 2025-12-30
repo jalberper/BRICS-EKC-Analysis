@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it."
+title: "BRICS-EKC-Analysis"
+type: software
+authors:
+  - given-names: Jose Alberto
+    family-names: Perez Gomez
+repository-code: "https://github.com/jalberper/BRICS-EKC-Analysis"
+license: MIT
+keywords:
+  - EKC
+  - BRICS
+  - CCE-MG
+  - CS-ECM
+  - panel data
+  - environmental economics
