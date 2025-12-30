@@ -47,3 +47,10 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Raw data and local artifacts
+data_raw/
+*.rds
+*.RData
+.Rhistory
+
