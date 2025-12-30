@@ -174,7 +174,8 @@ if (file.exists(imf_cache_rds)) {
     GDP_pc_PPP_imf = as.numeric(unlist(weo_vals))
   ) %>%
     filter(year %in% 2022:2024)
-  
+
+  wdi_cache_rds <- file.path(dir_raw, paste0("WDI_cache_", freeze_date, ".rds"))
   saveRDS(imf_weo, imf_cache_rds)
   save_freeze(imf_weo, "IMF_PPPPC_RUS")
 }
@@ -4047,3 +4048,4 @@ ggsave("figures/Fig9A_Income_CO2_Trajectories_Facets_KeyYears.png",
 
 ggsave("figures/Fig9A_Income_CO2_Trajectories_Facets_KeyYears.pdf",
        pA, width = 9.2, height = 4.8)
+
